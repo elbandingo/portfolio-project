@@ -5,6 +5,11 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+body {
+    background-color: #222;
+    color: white;
+}
+
 header {
     padding: 20px 35px;
     background-color: #222;
@@ -73,24 +78,55 @@ header nav ul li a {
     padding: 20px;
 }
 
-.about-me {
-    margin-top: 20px;
-    display: flex;
+.flex-row {
+    
+     display: flex;
+       
 }
 
-.projects {
-    margin-top: 20px;
-    display: flex;
+.intro {
+    margin-top: 2rem;
 }
 
+.intro p {
+    padding: 10px 15px;
+    color: #fff;
+    
+}
+
+/*label/titles for the content */
 .section-title {
-    width: 25%;
+    font-size: 32px;
+    border-right: 3px solid white;
+    color: #fff;
     text-align: right;
+    margin-bottom: 15px;
+    min-width: 250px;
+    padding-right: 15px;
+
 }
 
-.contact-me {
-    padding: 20px 35px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.footer ul li {
+    list-style: none;
+    color: #fff;
 }
+
+.footer ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.flex-row ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.footer ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
