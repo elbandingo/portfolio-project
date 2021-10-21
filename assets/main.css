@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    padding: 20px 35px;
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+  }
+
+header h1 {
+      font-weight: bold;
+      font-size: 36px;
+      color: #fff;
+      margin: 0;
+    
+  }
+
+
+header a {
+    color: #fff;
+    text-decoration: none; /* removes link underlines*/
+}
+
+header nav {
+     
+    margin: 7px 0;
+}
+
+header nav ul { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+  }
+
+
+
+  /* below section is the styling for the Hero/Jumbotron image and cool subtitle wrapped in a box bottom right aligned */
+
+.hero {
+    display: flex;
+    position: relative;
+    background-image: url("./images/dark-header.jpg");
+    background-size: cover; /* Makes the image not cut off, uses full size image to cover page*/
+    background-position: center;
+    justify-content: center;
+    height: 15vw;
+
+}
+
+.subtitle {
+    position: absolute;
+    right: 75px;
+    bottom: 35px;
+    color: #fff;
+    background-color: darkgray;
+    padding: 20px;
+}
+
+.about-me {
+    margin-top: 20px;
+}
+
+.projects {
+    margin-top: 20px;
+}
