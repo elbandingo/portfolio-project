@@ -24,6 +24,7 @@ header h1 {
       font-size: 36px;
       color: #fff;
       margin: 0;
+      padding: 10px;
     
   }
 
@@ -96,12 +97,14 @@ header nav ul li a {
 
 /*label/titles for the content */
 .section-title {
+    display: flex;
     font-size: 32px;
     border-right: 3px solid white;
     color: #fff;
-    text-align: right;
+    justify-content: right;
     margin-bottom: 15px;
     min-width: 350px;
+    max-width: 350px;
     padding-right: 15px;
 
 }
@@ -127,6 +130,65 @@ header nav ul li a {
 .footer ul li a {
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 1.55vw;
+    font-size: 18px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+
+    .section-title {
+        display: flex;
+        font-size: 32px;
+        border-right: 3px solid white;
+        color: #fff;
+        align-items: top;
+        text-align: right;
+        margin-bottom: 15px;
+        min-width: 250px;
+        max-width: 250px;
+        padding-right: 15px;
+    
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+
+    .section-title {
+        display: flex;
+        font-size: 32px;
+        border-right: 3px solid white;
+        color: #fff;
+        align-items: top;
+        text-align: right;
+        margin-bottom: 15px;
+        min-width: 175px;
+        max-width: 175px;
+        padding-right: 15px;
+    
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
