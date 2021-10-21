@@ -36,7 +36,7 @@ header a {
 
 header nav {
      
-    margin: 7px 0;
+    margin-top: 50px;
     
 }
 
@@ -54,29 +54,14 @@ header nav ul {
 header nav ul li a {
     padding: 10px 20px;
     font-weight: lighter;
-    font-size: 32px;
+    font-size: 20px;
   }
 
 a {
     position: relative;
 }  
 
-a::after {
-    content: '';
-    position: absolute;
-    width: 0%;
-    height: 2px;
-    background: tomato;
-    left: 0;
-    bottom: 0;
-    transition: 0.3s transform ease;
-    transform: scale(0,1);
-}
 
-a:hover::after {
-    width: 100%;
-    transform: scale(1,1);
-}
 
 
 
@@ -115,7 +100,7 @@ a:hover::after {
 .section-content p {
     padding: 10px 15px;
     color: #fff;
-    margin-right: 25%;
+    width: 65%;
     
 }
 
